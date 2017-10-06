@@ -7,7 +7,7 @@
             "type": "LIST_OF_COMMANDS"
           },
           {
-            "name": "Houses",
+            "name": "House",
             "type": "LIST_OF_HOUSES"
           }
         ],

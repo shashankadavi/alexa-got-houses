@@ -11,3 +11,4 @@ tully
 LIST_OF_COMMANDS
 
 house
+the house

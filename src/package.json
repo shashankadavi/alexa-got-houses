@@ -1,7 +1,7 @@
 {
   "name": "alexa-got-houses",
   "version": "1.0.0",
-  "description": "An Alexa basic skill for replying got houses",
+  "description": "An Alexa basic skill for replying words for got houses",
   "readme": "Alexa houses",
   "repository": "github repository",
   "main": "index.js",

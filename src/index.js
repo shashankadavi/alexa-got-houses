@@ -20,21 +20,21 @@ const handlers = {
         let outText = '';
 
         if (house =='stark'){
-            this.response.speak('The words of House'+ house +'are: Winter Is Coming!');
+            this.response.speak('The words of House'+ house +'are: Winter Is Coming!').listen('more houses');
         }else if (house =='lannister') {
-            this.response.speak('The words of House'+ house +'are: A Lannister Always Pays His Debts');
+            this.response.speak('The words of House'+ house +'are: A Lannister Always Pays His Debts').listen('more houses');
         }else if (house == 'targaryen') {
-            this.response.speak('The words of House'+ house +'are: Fire and Blood');
+            this.response.speak('The words of House'+ house +'are: Fire and Blood').listen('more houses');
         }else if (house == 'greyjoy') {
-            this.response.speak('The words of House'+ house +'are: What Is Dead May Never Die!');
+            this.response.speak('The words of House'+ house +'are: What Is Dead May Never Die!').listen('more houses');
         }else if (house == 'frey') {
-            this.response.speak('The words of House'+ house +'are: We Stand Together');
+            this.response.speak('The words of House'+ house +'are: We Stand Together').listen('more houses');
         }else if (house == 'arryn') {
-            this.response.speak('The words of House'+ house +'The words of House'+ house +'are: As High as Honor!');
+            this.response.speak('The words of House'+ house +'The words of House'+ house +'are: As High as Honor!').listen('more houses');
         }else if (house == 'tully') {
-            this.response.speak(house +'aint a great house anymore. Not worthy enough for Alexa, First of Her Name to say their words');
+            this.response.speak(house +'aint a great house anymore. Not worthy enough for Alexa, First of Her Name to say their words').listen('more houses');
         }else if (house != ''){
-            this.response.speak('Oh Noble Person! Only Great Game of Thrones Houses, Please!');
+            this.response.speak('Oh Noble Person! Only Great Game of Thrones Houses, Bye!');
         }
         this.emit(':responseReady');
     },
