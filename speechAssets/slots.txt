@@ -1,0 +1,13 @@
+LIST_OF_HOUSES
+
+stark
+lannister
+targaryen
+greyjoy
+frey
+arryn
+tully
+
+LIST_OF_COMMANDS
+
+house

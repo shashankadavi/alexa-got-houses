@@ -1,1 +1,2 @@
-MyIntent demo
+MyIntent {COMMAND} {HOUSE}
+MyIntent {HOUSE}

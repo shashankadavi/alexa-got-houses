@@ -1,9 +1,18 @@
 {
     "intents": [
       {
-        "intent": "MyIntent",  "slots":[]
+        "slots": [
+          {
+            "name": "Command",
+            "type": "LIST_OF_COMMANDS"
+          },
+          {
+            "name": "Houses",
+            "type": "LIST_OF_HOUSES"
+          }
+        ],
+        "intent": "MyIntent"
       },
-  
       {
         "intent": "AMAZON.HelpIntent"
       },
