@@ -1,14 +1,14 @@
 {
-  "name": "alexa-demo-basics",
+  "name": "alexa-got-houses",
   "version": "1.0.0",
-  "description": "An Alexa demo for workshop",
-  "readme": "Alexa Demo",
-  "repository": "my repository",
+  "description": "An Alexa basic skill for replying got houses",
+  "readme": "Alexa houses",
+  "repository": "github repository",
   "main": "index.js",
   "scripts": {
     "zip": "zip -r ../alexa-demo.zip . -x 'package.json' -x '*.git*' "
   },
-  "author": "Scott Preston",
+  "author": "Shashank Adavi",
   "license": "MIT",
   "dependencies": {
     "alexa-sdk": "^1.0.13"
